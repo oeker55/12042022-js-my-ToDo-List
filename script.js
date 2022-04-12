@@ -40,7 +40,7 @@ addBtn.onclick = function () {
         
         spanElementCompleted.onclick = function(e){
 
-            yapildiText.innerHTML="✓"
+            yapildiText.innerHTML="----✓"
             listElement.style.backgroundColor="#42ba96"
                   e.target.remove()
 
@@ -55,7 +55,7 @@ addBtn.onclick = function () {
 
 
 
-        listElement.appendChild(yapildiText)
+        spanElement1.appendChild(yapildiText)
         listElement.appendChild(spanElement1)
         listElement.appendChild(spanElement2)
 
