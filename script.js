@@ -42,7 +42,7 @@ addBtn.onclick = function () {
 
             yapildiText.innerHTML="✓"
             listElement.style.backgroundColor="#42ba96"
-                  //  e.target.remove()
+                  e.target.remove()
 
 
         }
@@ -55,8 +55,8 @@ addBtn.onclick = function () {
 
 
 
-        listElement.appendChild(spanElement1)
         listElement.appendChild(yapildiText)
+        listElement.appendChild(spanElement1)
         listElement.appendChild(spanElement2)
 
 
